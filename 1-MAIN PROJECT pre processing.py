@@ -121,7 +121,7 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Perform OCR using Tesseract
 text = pytesseract.image_to_string(gray, lang='mal')
 
-# Print the recognized text
+# Print the recognized letter
 print(text)
 
 
