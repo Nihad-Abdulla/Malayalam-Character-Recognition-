@@ -13,7 +13,7 @@
 
 
 
-# In[1]:
+
 
 
 import cv2
