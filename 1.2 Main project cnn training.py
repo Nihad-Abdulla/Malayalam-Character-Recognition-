@@ -86,7 +86,7 @@ for filename in os.listdir(image_folder_path):
         # Store the predicted label
         predicted_labels.append(predicted_label)
 
-# Print the predicted labels and their corresponding class names in a single line
+# Print the predicted labels and their corresponding class names in a  line
 predicted_classes = [label_map[label] for label in predicted_labels]
 print('Predicted classes:', ''.join(predicted_classes))
 with open('C:/input/validation/predicted_classes.txt', 'w', encoding='utf-8') as f:
