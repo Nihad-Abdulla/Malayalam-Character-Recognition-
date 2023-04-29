@@ -55,13 +55,6 @@ for filename in os.listdir(path):
         print(f"Image {filename} processed and saved.")
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
