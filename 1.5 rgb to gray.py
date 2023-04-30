@@ -34,7 +34,7 @@ from PIL import Image
 import os
 
 # Path to the folder containing the images
-path = 'C:\input\character segmentation'
+path = ''C:\\input\\train\\്'
 
 # Standard size for the resized images
 size = (128, 128)
