@@ -147,27 +147,7 @@ with open('C:/input/validation/predicted_classes.txt', 'w', encoding='utf-8') as
     f.write(''.join(predicted_classes))
 
 
-# In[4]:
-
-
-import cv2
-import pytesseract
-
-# Load the image
-image = cv2.imread("C:\input\malayalam\cp10.png")
-
-# Convert the image to grayscale
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-
-# Perform OCR using Tesseract
-text = pytesseract.image_to_string(gray, lang='mal')
-
-# Print the recognized text
-print(text)
-
-
-# In[ ]:
-
+# In[4]
 
 
 
